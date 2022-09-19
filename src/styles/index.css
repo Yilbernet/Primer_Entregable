@@ -29,6 +29,7 @@ p, h1 {
 }
 
 .card {
+  position: relative;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -45,6 +46,14 @@ p, h1 {
   width: max-content;
   margin-left: auto;
   margin-bottom: 15px;
+}
+
+box-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  left: 20px;
 }
 
 .card__btn {
